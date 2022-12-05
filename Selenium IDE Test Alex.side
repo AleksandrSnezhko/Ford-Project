@@ -1,0 +1,1778 @@
+{
+  "id": "b5fc9469-f684-4c55-8449-9ee4ae03c9cc",
+  "version": "2.0",
+  "name": "Selenium IDE Test Alex",
+  "url": "https://www.ford.com",
+  "tests": [{
+    "id": "133590ee-1bdb-408c-a4cf-6bf03740b57b",
+    "name": "Mustang",
+    "commands": [{
+      "id": "b21f9711-dd4b-47c8-b394-dfbab3812c18",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "488fc423-b798-4500-a944-e6ad7a297142",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5755bcd-090c-4659-9ca2-8f81622fd3d3",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Ford® - New Hybrid & Electric Vehicles, SUVs, Crossovers, Trucks, Vans & Cars",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c272d5f7-537e-4e98-8f74-36a6c7379b80",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fgx-main-content-wrap",
+      "targets": [
+        ["css=.fgx-main-content-wrap", "css:finder"],
+        ["xpath=//div[@id='brand-nav-main-container']/nav/div[2]", "xpath:idRelative"],
+        ["xpath=//nav/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7bef643-dbc4-47af-b54c-b246cf8bc131",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=brand-nav-logo-lnk",
+      "targets": [
+        ["id=brand-nav-logo-lnk", "id"],
+        ["linkText=Ford Logo", "linkText"],
+        ["css=#brand-nav-logo-lnk", "css:finder"],
+        ["xpath=//a[@id='brand-nav-logo-lnk']", "xpath:attributes"],
+        ["xpath=//div[@id='brand-nav-main-container']/nav/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.ford.com/']", "xpath:href"],
+        ["xpath=//nav/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ford Logo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f78efae-881a-43c3-a397-7e9b03abf2a3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=BRONCO",
+      "targets": [
+        ["linkText=BRONCO", "linkText"],
+        ["css=#brand-nav-eyebrow-li1 > .eyebrow-item", "css:finder"],
+        ["xpath=//li[@id='brand-nav-eyebrow-li1']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ford.com/bronco/?gnav=eyebrow-brand-brnco')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BRONCO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70447217-71a5-485c-a414-e9922d1df63a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#component01 .content-wrapper",
+      "targets": [
+        ["css=#component01 .content-wrapper", "css:finder"],
+        ["xpath=//div[@id='component01']/div/div/div/div/div[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d30502ed-994b-48c6-8451-aeaa5d7b6bcf",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#component01 .content-wrapper",
+      "targets": [
+        ["css=#component01 .content-wrapper", "css:finder"],
+        ["xpath=//div[@id='component01']/div/div/div/div/div[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "5c5c954e-42e2-4f0d-b9c3-640d609b1362",
+      "comment": "",
+      "command": "click",
+      "target": "css=#brand-nav-eyebrow-li3 .eyebrow-item-text",
+      "targets": [
+        ["css=#brand-nav-eyebrow-li3 .eyebrow-item-text", "css:finder"],
+        ["xpath=//li[@id='brand-nav-eyebrow-li3']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'MUSTANG')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c775fe1-4c25-4c32-8144-13b4c48aa501",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#component02 .ml-wrapper div",
+      "targets": [
+        ["css=#component02 .ml-wrapper div", "css:finder"],
+        ["xpath=//div[@id='component02']/div/div/div/div/div/div[2]/span/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": "There’s nothing like the sound of a stampede. A herd of iconic Mustangs, each giving you the opportunity to make it your own with unique styling and adrenaline-filled performance. Every fan may have their favorite, but the entire lineup will forever invoke a deep sense of reverence, excitement and spirit."
+    }, {
+      "id": "b186296f-a976-497c-bec2-5d9789342d05",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.single-static-feature-text:nth-child(1) > .fgx-ssf-heading > div",
+      "targets": [
+        ["css=.single-static-feature-text:nth-child(1) > .fgx-ssf-heading > div", "css:finder"],
+        ["xpath=//div[@id='component02']/div/div/div/div/div/h2/div", "xpath:idRelative"],
+        ["xpath=//h2/div", "xpath:position"]
+      ],
+      "value": "Garage Goals"
+    }, {
+      "id": "be914205-3d91-41c6-8ec1-5e96db9ccb36",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Learn More",
+      "targets": [
+        ["linkText=Learn More", "linkText"],
+        ["css=.col-md-6:nth-child(1) .btn", "css:finder"],
+        ["xpath=//div[@id='component02']/div/div[2]/div/div/div/div/div/div/div[2]/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.ford.com/cars/mustang/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Learn More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a808d5f-643c-42ff-bb4f-bfa16d02ab7c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,11.111111640930176)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ead7216-b5a8-4cea-883d-0f2ccde94cfc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,271.85186767578125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a7ec13d-77af-4790-9d59-afb467a5c88c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,296.29632568359375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "063260c3-faf8-4c95-907d-940942b90a8e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1037.037109375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a905cbb-eb69-4dd4-92a5-e70a0924cf33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.carousel-controls-container:nth-child(5) .carousel-next",
+      "targets": [
+        ["css=.carousel-controls-container:nth-child(5) .carousel-next", "css:finder"],
+        ["xpath=//div[@id='component04']/div/div/div/div[4]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "045fcc48-0c7e-494e-b069-865d0f9a7ee5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.carousel-controls-container:nth-child(5) .carousel-next",
+      "targets": [
+        ["css=.carousel-controls-container:nth-child(5) .carousel-next", "css:finder"],
+        ["xpath=//div[@id='component04']/div/div/div/div[4]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8cb0645-88b3-47d6-ab72-8b720f20e040",
+      "comment": "",
+      "command": "click",
+      "target": "css=.carousel-controls-container:nth-child(5) .carousel-next",
+      "targets": [
+        ["css=.carousel-controls-container:nth-child(5) .carousel-next", "css:finder"],
+        ["xpath=//div[@id='component04']/div/div/div/div[4]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec95d044-2c89-4604-b398-0337f6469009",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.liyml-title:nth-child(3)",
+      "targets": [
+        ["css=.liyml-title:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='component03']/div/div/div/div[2]/div/div/div/h2[2]", "xpath:idRelative"],
+        ["xpath=//h2[2]", "xpath:position"],
+        ["xpath=//h2[contains(.,'Recommended for You')]", "xpath:innerText"]
+      ],
+      "value": "Recommended for You"
+    }, {
+      "id": "7e79780d-b53f-43a4-ac41-581babf7bfac",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#component05 .description:nth-child(1)",
+      "targets": [
+        ["css=#component05 .description:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='component05']/div/div/div/div/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hear the roar of a Mustang as the ground starts to tremble and your legs start to shake. As always, Mustang draws upon its performance roots with features for enhanced handling, high-powered engine options and a classic Mustang design. For 2022, the soul-stirring Mustang Mach 1 and Mach 1 Premium stand at the pinnacle of 5.0L performance. The personally customizable Mach 1 continues its legacy, engineered specifically for quick turns and spirited drives.')]", "xpath:innerText"]
+      ],
+      "value": "Hear the roar of a Mustang as the ground starts to tremble and your legs start to shake. As always, Mustang draws upon its performance roots with features for enhanced handling, high-powered engine options and a classic Mustang design. For 2022, the soul-stirring Mustang Mach 1 and Mach 1 Premium stand at the pinnacle of 5.0L performance. The personally customizable Mach 1 continues its legacy, engineered specifically for quick turns and spirited drives."
+    }, {
+      "id": "346df22b-bcc6-47b3-bad4-ee2c9f82a018",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.brand-logo:nth-child(1)",
+      "targets": [
+        ["css=.brand-logo:nth-child(1)", "css:finder"],
+        ["xpath=//a[@id='brand-nav-logo-lnk']/span", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b49d11e-b784-4eba-b161-998249133268",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.md-model-model:nth-child(10) .card-content-wrap",
+      "targets": [
+        ["css=.md-model-model:nth-child(10) .card-content-wrap", "css:finder"],
+        ["xpath=//div[@id='component04']/div/div/div/div[3]/div/ul/li[10]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li[10]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b6be26e-4ccc-4a60-8ee5-f61e11ed0d71",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.md-model-model:nth-child(10) .view-all-offers-cta",
+      "targets": [
+        ["css=.md-model-model:nth-child(10) .view-all-offers-cta", "css:finder"],
+        ["xpath=//div[@id='component04']/div/div/div/div[3]/div/ul/li[10]/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cars/mustang/2022/models/shelby-gt500/')])[6]", "xpath:href"],
+        ["xpath=//li[10]/div/div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29d253b0-0251-484f-b80e-062676fbb2ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md-model-model:nth-child(10) .view-all-offers-cta",
+      "targets": [
+        ["css=.md-model-model:nth-child(10) .view-all-offers-cta", "css:finder"],
+        ["xpath=//div[@id='component04']/div/div/div/div[3]/div/ul/li[10]/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cars/mustang/2022/models/shelby-gt500/')])[6]", "xpath:href"],
+        ["xpath=//li[10]/div/div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b32591f8-9522-4adf-bf36-fbf8e44d32f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hidden-xs .btn-secondary > .cta-text",
+      "targets": [
+        ["css=.hidden-xs .btn-secondary > .cta-text", "css:finder"],
+        ["xpath=//div[@id='component01']/div/div/div/div/div/div/div/div/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Build & Price\n')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5cf35f1-4bf3-4e12-81e3-b27e482eda24",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fd-golf-submit-block:nth-child(3) .fds-primary-button__button",
+      "targets": [
+        ["css=.fd-golf-submit-block:nth-child(3) .fds-primary-button__button", "css:finder"],
+        ["xpath=//button[@value='']", "xpath:attributes"],
+        ["xpath=(//div[@id='FDSLightSubmitPrimaryButton']/button)[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Acknowledge')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c051dec7-fcc4-4aa8-b086-eb2aa8566cd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fd-golf-submit-block:nth-child(3) .fds-primary-button__button",
+      "targets": [
+        ["css=.fd-golf-submit-block:nth-child(3) .fds-primary-button__button", "css:finder"],
+        ["xpath=//button[@value='']", "xpath:attributes"],
+        ["xpath=(//div[@id='FDSLightSubmitPrimaryButton']/button)[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Acknowledge')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d09b0ac0-8200-45a7-bdb8-114b10098c50",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.fd-golf-submit-block:nth-child(3) .fds-primary-button__button",
+      "targets": [
+        ["css=.fd-golf-submit-block:nth-child(3) .fds-primary-button__button", "css:finder"],
+        ["xpath=//button[@value='']", "xpath:attributes"],
+        ["xpath=(//div[@id='FDSLightSubmitPrimaryButton']/button)[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'\n                        Acknowledge\n                    ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "983e495a-25e9-41b1-9a67-ddfd02c340f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-arrow:nth-child(4) > .glide__custom-right",
+      "targets": [
+        ["css=.btn-arrow:nth-child(4) > .glide__custom-right", "css:finder"],
+        ["xpath=//div[@id='select-model-carousel']/div[3]/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "883a4cdc-fd51-41db-ad9e-2fe4bbab43ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-arrow:nth-child(4) > .glide__custom-right",
+      "targets": [
+        ["css=.btn-arrow:nth-child(4) > .glide__custom-right", "css:finder"],
+        ["xpath=//div[@id='select-model-carousel']/div[3]/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d249b8dd-5a24-49ce-8685-60d3ab83cd11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-arrow:nth-child(1)",
+      "targets": [
+        ["css=.btn-arrow:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='select-model-carousel']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6994910d-3f13-448c-b093-0fe590b7cd16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-arrow:nth-child(1)",
+      "targets": [
+        ["css=.btn-arrow:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='select-model-carousel']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5a6f0f3-9aff-44fc-a0d9-fddcd557bd28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-arrow:nth-child(1)",
+      "targets": [
+        ["css=.btn-arrow:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='select-model-carousel']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57261438-f0ef-4511-8a4e-3140e0767f95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-arrow:nth-child(1)",
+      "targets": [
+        ["css=.btn-arrow:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='select-model-carousel']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d28cd4aa-664b-4b42-a1da-9bf145a604ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-arrow:nth-child(1)",
+      "targets": [
+        ["css=.btn-arrow:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='select-model-carousel']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e3dd1eb-9f28-4d08-8c2b-9cb07630adf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glide__slide:nth-child(7) .height-sync-fix > .btn",
+      "targets": [
+        ["css=.glide__slide:nth-child(7) .height-sync-fix > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//div[@id='select-model-carousel']/div/ul/li[7]/div/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//li[7]/div/div/div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee0edf4b-60a8-4835-b6e9-418261409120",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf16f55a-c631-43cc-b62d-4fffc6577c17",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1134)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ce1b1d7-085e-4463-bb3d-9f28fec579f6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2032)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16b5e3c3-7369-41c8-9371-097d101a619e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3836)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57d3d030-ad77-4a5c-91ee-64749c45fc95",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5708)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "261aa330-3157-4d75-af60-9d8880485d23",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,8980)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "155bf788-e9af-4252-abca-b0e9a7a465f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(7) > .text-center:nth-child(1) .btn",
+      "targets": [
+        ["css=.row:nth-child(7) > .text-center:nth-child(1) .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[121]", "xpath:attributes"],
+        ["xpath=//div[@id='summary-view']/div/div[3]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19f4dbdb-273b-46b9-bcc9-2932f6fd435a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shown .fd-golf-close-btn",
+      "targets": [
+        ["css=.shown .fd-golf-close-btn", "css:finder"],
+        ["xpath=//body[@id='configPage-f859e46411']/div[9]/div/div/div", "xpath:idRelative"],
+        ["xpath=//body/div[9]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97bc0baa-ee6b-4887-a83f-bdf18baa3a88",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,358)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0761fab3-a462-4f4c-80be-09a7dc060e71",
+      "comment": "",
+      "command": "click",
+      "target": "css=#brand-nav-logo-lnk > .brand-logo",
+      "targets": [
+        ["css=#brand-nav-logo-lnk > .brand-logo", "css:finder"],
+        ["xpath=//a[@id='brand-nav-logo-lnk']/span", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b700d46-3750-4235-91ab-736eec5527ff",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7929191b-9d16-4e8a-81f6-6726b2b1fbcb",
+    "name": "Bronco B&P",
+    "commands": [{
+      "id": "92844015-a597-4974-a970-ed7268e831e4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75592809-b67d-48e8-819a-7e77aea1e118",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "472df007-dfdf-4807-981b-a54499ea3f47",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Ford® - New Hybrid & Electric Vehicles, SUVs, Crossovers, Trucks, Vans & Cars",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fae4f17-2cfb-40d3-a992-1acd32c067bd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=BRONCO",
+      "targets": [
+        ["linkText=BRONCO", "linkText"],
+        ["css=#brand-nav-eyebrow-li1 > .eyebrow-item", "css:finder"],
+        ["xpath=//li[@id='brand-nav-eyebrow-li1']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ford.com/bronco/?gnav=eyebrow-brand-brnco')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BRONCO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f01a60b0-a919-4c36-b3cc-2ba67d3ee223",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#brand-nav-logo-lnk > .brand-logo",
+      "targets": [
+        ["css=#brand-nav-logo-lnk > .brand-logo", "css:finder"],
+        ["xpath=//a[@id='brand-nav-logo-lnk']/span", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a5b407d-a4fd-4d5c-b175-daca89a1a362",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=BRONCO",
+      "targets": [
+        ["linkText=BRONCO", "linkText"],
+        ["css=#brand-nav-eyebrow-li1 > .eyebrow-item", "css:finder"],
+        ["xpath=//li[@id='brand-nav-eyebrow-li1']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ford.com/bronco/?gnav=eyebrow-brand-brnco')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BRONCO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a61c1ad-a804-4830-8403-7f177224b6b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#brand-nav-eyebrow-li1 .eyebrow-item-text",
+      "targets": [
+        ["css=#brand-nav-eyebrow-li1 .eyebrow-item-text", "css:finder"],
+        ["xpath=//li[@id='brand-nav-eyebrow-li1']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'BRONCO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff16e6c2-4a8e-4bd1-8da9-4a7bed17d101",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,390)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5ab0966-8d60-40ae-83fa-be38abab9079",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Bronco",
+      "targets": [
+        ["linkText=Explore Bronco", "linkText"],
+        ["css=.global-cta-expanded-feature:nth-child(4) > .fgx-text-wrap", "css:finder"],
+        ["xpath=//div[@id='heritage']/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/suvs/bronco/2022/?intcmp=brnco-brand-cta-vhp-bronco#heritage')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Bronco')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c2b5467-58bc-424f-a807-9594914da6fd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.authored-color",
+      "targets": [
+        ["css=.authored-color", "css:finder"],
+        ["xpath=//div[@id='component01']/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://shop.ford.com/configure/bronco/2023/')])[5]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c288e3d-d197-4a02-a944-3a6961a3f9d2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fgx-on-mobile:nth-child(2)",
+      "targets": [
+        ["css=.fgx-on-mobile:nth-child(2)", "css:finder"],
+        ["xpath=//li[5]/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b657c965-8457-4ee3-a22f-99a5a046f958",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.billboard-content > .content-wrapper",
+      "targets": [
+        ["css=.billboard-content > .content-wrapper", "css:finder"],
+        ["xpath=//div[@id='component01']/div/div/div/div/div[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "159ec49e-b9ed-4d86-935d-d82f90a7ca0c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.dropdown-font",
+      "targets": [
+        ["css=.dropdown-font", "css:finder"],
+        ["xpath=//li/span/span", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "70f67373-9902-43bf-85f3-eff2ee01a597",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.authored-color",
+      "targets": [
+        ["css=.authored-color", "css:finder"],
+        ["xpath=//div[@id='component01']/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://shop.ford.com/configure/bronco/2023/')])[5]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "6618dedc-15ae-40ae-ba5b-046da5dcad93",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.fgx-on-mobile:nth-child(2)",
+      "targets": [
+        ["css=.fgx-on-mobile:nth-child(2)", "css:finder"],
+        ["xpath=//li[5]/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "c6ea9e0a-801b-4c8b-a819-ca226f11f8c2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.billboard-content > .content-wrapper",
+      "targets": [
+        ["css=.billboard-content > .content-wrapper", "css:finder"],
+        ["xpath=//div[@id='component01']/div/div/div/div/div[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72a98d96-1508-4d39-a918-ec5bbb87bfe2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.vehicle-attributes-wrap > .section:nth-child(1)",
+      "targets": [
+        ["css=.vehicle-attributes-wrap > .section:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='component02']/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55240370-4598-4f17-8b83-9adf2359abe8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.vehicle-attributes-wrap > .section:nth-child(2)",
+      "targets": [
+        ["css=.vehicle-attributes-wrap > .section:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='component02']/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div[2]/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f202de2-5819-4ac0-a089-9f0434d364c7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.attr-sm",
+      "targets": [
+        ["css=.attr-sm", "css:finder"],
+        ["xpath=//div[@id='component02']/div/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24ea3e96-1b7c-4725-a756-68b298780ef9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.display-three",
+      "targets": [
+        ["css=.display-three", "css:finder"],
+        ["xpath=//div[@id='component01']/div/div/div/div/div[2]/div/div[2]/div/div/div/h1/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'2022 Ford Bronco® SUV')]", "xpath:innerText"]
+      ],
+      "value": "2022 Ford Bronco® SUV"
+    }, {
+      "id": "5298c79b-ade2-452f-a036-5f8e80c5e477",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.fgx-brand-text > div",
+      "targets": [
+        ["css=.fgx-brand-text > div", "css:finder"],
+        ["xpath=//div[@id='component01']/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "Due to high demand, the current model year is no longer available for retail order. Limited inventory may be available at selected dealers. Contact your dealer for more information."
+    }, {
+      "id": "30bb8218-5511-4adf-90fe-c8e550f55273",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,162)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e11255e-7508-4c1d-b5fd-165719bdc4e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.authored-color",
+      "targets": [
+        ["css=.authored-color", "css:finder"],
+        ["xpath=//div[@id='component01']/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://shop.ford.com/configure/bronco/2023/')])[5]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ab5b40d-d78e-4434-9105-43928b15a851",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.btn-arrow:nth-child(4)",
+      "targets": [
+        ["css=.btn-arrow:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='select-model-carousel']/div[3]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d20f9b74-44bd-4843-916e-7cb3fc62fe75",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.glide__slide:nth-child(4)",
+      "targets": [
+        ["css=.glide__slide:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='select-model-carousel']/div/ul/li[4]", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/ul/li[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53dad1e5-f844-4a7b-9f24-ba26c3a446e8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.glide__slide:nth-child(3)",
+      "targets": [
+        ["css=.glide__slide:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='select-model-carousel']/div/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62e1f5d0-9c91-4fdb-9236-e7b13db2c19d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.glide__slide:nth-child(2)",
+      "targets": [
+        ["css=.glide__slide:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='select-model-carousel']/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "030cec8d-39ec-4e58-92aa-713bb922f42e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.glide__slide--active",
+      "targets": [
+        ["css=.glide__slide--active", "css:finder"],
+        ["xpath=//div[@id='select-model-carousel']/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc739a3b-6196-4bb8-8ee7-a8149caf0fd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glide__slide:nth-child(1) .height-sync-fix > .btn",
+      "targets": [
+        ["css=.glide__slide:nth-child(1) .height-sync-fix > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='select-model-carousel']/div/ul/li/div/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start Your Build')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "810db6fd-79af-49b0-ab1a-f97ff0f140c4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e4891a6-a0f2-4aa0-ae7f-c7254aa5de90",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,560)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df351490-b336-4812-bcbf-2a2a3dbe6cfb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1137.3333740234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d575f371-484a-4b2f-a075-98b0be8dd7fe",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1616)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43d60d15-9e13-4e9f-ab02-12118fc93215",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99b75e8f-3e13-41ba-9c98-8382a49cdfd0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2632)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "927887e6-588f-4af9-a222-0967ddabc5d7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3948)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb7dc925-c4af-48bd-81a3-23ede170601c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5237.33349609375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "378c4a69-25f6-44ad-a369-2d7de2071b83",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6895.33349609375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c59774f-ecc1-4f20-8cdd-f36cc7a1274b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7715.33349609375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3596c979-802c-4e1d-babe-027f0877c9dd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.estimated-price-container",
+      "targets": [
+        ["css=.estimated-price-container", "css:finder"],
+        ["xpath=//div[@id='summary-mobile-scroll']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e072214b-92c2-4d73-a148-556f0c1e7466",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.monthly-payment-container",
+      "targets": [
+        ["css=.monthly-payment-container", "css:finder"],
+        ["xpath=//div[@id='summary-mobile-scroll']/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55f094a0-6c08-41b8-8d88-17fcaf906db8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.text-center:nth-child(2) > .row .btn",
+      "targets": [
+        ["css=.text-center:nth-child(2) > .row .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[88]", "xpath:attributes"],
+        ["xpath=//div[@id='summary-mobile-scroll']/div[2]/div[3]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "863d5754-073d-4c2f-a543-8ee54dabb071",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=summary-view",
+      "targets": [
+        ["id=summary-view", "id"],
+        ["css=#summary-view", "css:finder"],
+        ["xpath=//div[@id='summary-view']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[3]/div/div[3]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd294ccf-7d5a-417a-ad85-b1eb71805436",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.row:nth-child(8) .btn",
+      "targets": [
+        ["css=.row:nth-child(8) .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[93]", "xpath:attributes"],
+        ["xpath=//div[@id='summary-view']/div/div[3]/div[3]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de479c8c-40db-4a35-bc4f-120b2e73e5d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(8) .btn",
+      "targets": [
+        ["css=.row:nth-child(8) .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[93]", "xpath:attributes"],
+        ["xpath=//div[@id='summary-view']/div/div[3]/div[3]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b96c926-6f60-45c6-b3c8-a763ca02096b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9180)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf53544b-81b6-4374-af4c-651c373a5acb",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.shown .fd-golf-title-wrapper",
+      "targets": [
+        ["css=.shown .fd-golf-title-wrapper", "css:finder"],
+        ["xpath=//body[@id='configPage-f859e46411']/div[12]/div/div", "xpath:idRelative"],
+        ["xpath=//body/div[12]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75260b58-9f05-4888-819c-adb618aafe29",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fd-golf-guxv2 #getAnInternetPrice img",
+      "targets": [
+        ["css=.fd-golf-guxv2 #getAnInternetPrice img", "css:finder"],
+        ["xpath=//div[@id='getAnInternetPrice']/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bee32010-775d-47fc-9a30-24b0d9eb4f69",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fd-golf-guxv2 #getAnInternetPrice .fd-golf-vehicle-title",
+      "targets": [
+        ["css=.fd-golf-guxv2 #getAnInternetPrice .fd-golf-vehicle-title", "css:finder"],
+        ["xpath=//div[@id='getAnInternetPrice']/div/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'2023 Bronco® Base')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ccca5d5-cc01-448e-a425-d74e17036022",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.left-area",
+      "targets": [
+        ["css=.left-area", "css:finder"],
+        ["xpath=//div[@id='getAnInternetPrice']/div/div/div/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31b524df-d182-44b4-91bd-137e74e0038a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.estimated-price-container",
+      "targets": [
+        ["css=.estimated-price-container", "css:finder"],
+        ["xpath=//div[@id='summary-mobile-scroll']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a014d7c-8be4-41b9-9636-347a9914c8d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shown .fd-golf-close-btn",
+      "targets": [
+        ["css=.shown .fd-golf-close-btn", "css:finder"],
+        ["xpath=//body[@id='configPage-f859e46411']/div[9]/div/div/div", "xpath:idRelative"],
+        ["xpath=//body/div[9]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "534b86de-cc88-469f-8cae-27e8136095cf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,371.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "573fe0a3-8044-4103-8813-353862845497",
+      "comment": "",
+      "command": "click",
+      "target": "css=#brand-nav-logo-lnk > .brand-logo",
+      "targets": [
+        ["css=#brand-nav-logo-lnk > .brand-logo", "css:finder"],
+        ["xpath=//a[@id='brand-nav-logo-lnk']/span", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76a65a83-b9b9-4773-ae15-45c868693d33",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "24f5f4ca-a85d-4de5-8aa7-1bec15dcf951",
+    "name": "F 150 B&P",
+    "commands": [{
+      "id": "01f50a84-47a7-4bad-b0d9-ddacac84c1a9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41fc16b7-66c7-4c37-a754-24fbf6e06d86",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7f45d4b-89bc-4490-a56d-f47f8ce28355",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Ford® - New Hybrid & Electric Vehicles, SUVs, Crossovers, Trucks, Vans & Cars",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9a03f8f-225f-431c-a708-efe4a8a8db2f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#brand-nav-logo-lnk > .brand-logo",
+      "targets": [
+        ["css=#brand-nav-logo-lnk > .brand-logo", "css:finder"],
+        ["xpath=//a[@id='brand-nav-logo-lnk']/span", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93a44d66-4469-4e79-8d67-8fcc04aae461",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=F-150®",
+      "targets": [
+        ["linkText=F-150®", "linkText"],
+        ["css=#brand-nav-eyebrow-li2 > .eyebrow-item", "css:finder"],
+        ["xpath=//li[@id='brand-nav-eyebrow-li2']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/f-150/?gnav=eyebrow-brand-f150')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' F-150®')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9360faa7-c2f2-487e-ad47-6ccc04bbf39c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=brand-nav-user-btn",
+      "targets": [
+        ["id=brand-nav-user-btn", "id"],
+        ["css=#brand-nav-user-btn", "css:finder"],
+        ["xpath=//button[@id='brand-nav-user-btn']", "xpath:attributes"],
+        ["xpath=//li[@id='brand-nav-user-item']/button", "xpath:idRelative"],
+        ["xpath=//ul[2]/li/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1820c8d-b520-48da-88a6-f539e64b48d8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.billboard-img .lazyloaded",
+      "targets": [
+        ["css=.billboard-img .lazyloaded", "css:finder"],
+        ["xpath=//img[@alt='Man riding a horse toward a 2023 Ford Super Duty® F-450® King Ranch® hitched to a horse trailer']", "xpath:img"],
+        ["xpath=//div[@id='component01']/div/div/div/div/div[2]/div/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e24cd21b-8ed4-4195-b29d-4825b59287ee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=F-150®",
+      "targets": [
+        ["linkText=F-150®", "linkText"],
+        ["css=#brand-nav-eyebrow-li2 > .eyebrow-item", "css:finder"],
+        ["xpath=//li[@id='brand-nav-eyebrow-li2']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/f-150/?gnav=eyebrow-brand-f150')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' F-150®')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "750f7dad-abc6-488e-a74b-f2c730527684",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.billboard-img > picture > .lazyloaded",
+      "targets": [
+        ["css=.billboard-img > picture > .lazyloaded", "css:finder"],
+        ["xpath=//img[@alt='Ford F-150® in Atlas Blue, F-150 PowerBoost™ hybrid in Rapid Red and an F-150 Lightning™ in Iced Blue SIlver']", "xpath:img"],
+        ["xpath=//div[@id='component01']/div/div/div/div/div[2]/div/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48c90725-b454-4197-8552-143fa754359e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Discover F-150® Raptor R™",
+      "targets": [
+        ["linkText=Discover F-150® Raptor R™", "linkText"],
+        ["css=.features-carousel-slide:nth-child(1) .btn", "css:finder"],
+        ["xpath=//div[@id='component03']/div/div/div/div/div[3]/ul/li/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/f150-raptor-r/2023/')])[3]", "xpath:href"],
+        ["xpath=//li/div/div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Discover F-150® Raptor R™')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d47093a-03e1-47ae-8080-97bd5c231f04",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Discover F-150® Raptor R™",
+      "targets": [
+        ["linkText=Discover F-150® Raptor R™", "linkText"],
+        ["css=.features-carousel-slide:nth-child(1) .btn", "css:finder"],
+        ["xpath=//div[@id='component03']/div/div/div/div/div[3]/ul/li/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/f150-raptor-r/2023/')])[3]", "xpath:href"],
+        ["xpath=//li/div/div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Discover F-150® Raptor R™')]", "xpath:innerText"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "6f819ea5-77d9-43b7-940c-6413d8ac17d7",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=div:nth-child(1) > .featuresCarouselContainer .features-carousel-slide:nth-child(1) .lower-wrap",
+      "targets": [
+        ["css=div:nth-child(1) > .featuresCarouselContainer .features-carousel-slide:nth-child(1) .lower-wrap", "css:finder"],
+        ["xpath=//div[@id='component03']/div/div/div/div/div[3]/ul/li/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div[3]/ul/li/div/div[2]", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "7aa56ed9-14e6-48f9-9aac-c42250b2d93b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#component02 .fgx-brand-ds > div",
+      "targets": [
+        ["css=#component02 .fgx-brand-ds > div", "css:finder"],
+        ["xpath=//div[@id='component02']/div/div/div/div/div/h2/div", "xpath:idRelative"],
+        ["xpath=//h2/div", "xpath:position"]
+      ],
+      "value": "LONGEST BEST-SELLING FOR TRUCKS"
+    }, {
+      "id": "7d6ee875-ece2-44dd-a677-9ff185a93b70",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#component04 .expanded-header > .fgx-brand-ds",
+      "targets": [
+        ["css=#component04 .expanded-header > .fgx-brand-ds", "css:finder"],
+        ["xpath=//div[@id='component04']/div/div[2]/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/h2", "xpath:position"]
+      ],
+      "value": "THERE’S AN F-150® TAILOR-MADE FOR YOU"
+    }, {
+      "id": "16d762c7-599b-4e15-8523-77f4a07aed2a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#component04 .expanded-header .ml-wrapper",
+      "targets": [
+        ["css=#component04 .expanded-header .ml-wrapper", "css:finder"],
+        ["xpath=//div[@id='component04']/div/div[2]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "It goes without saying, no matter which model you choose – gas powered, hybrid or the all-electric F-150 Lightning™ pickup–Built Ford Tough® comes standard. Whether you’re an everyday working warrior or long-hauling weekend warrior, F-150 has you covered. The fresh, modern interior and ruggedly stylish exterior hit the right note whatever your lifestyle or working conditions entail. The toughest part? Choosing which one you park in your driveway."
+    }, {
+      "id": "de92d6af-7b8c-49b2-98c1-14f9d0114211",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Discover F-150® Raptor R™",
+      "targets": [
+        ["linkText=Discover F-150® Raptor R™", "linkText"],
+        ["css=.features-carousel-slide:nth-child(1) .btn", "css:finder"],
+        ["xpath=//div[@id='component03']/div/div/div/div/div[3]/ul/li/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/f150-raptor-r/2023/')])[3]", "xpath:href"],
+        ["xpath=//li/div/div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Discover F-150® Raptor R™')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cd05833-e5e7-4ad4-9443-e1cd3193411e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//div[@id='component01']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div/h1/span/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'THE NEW 2023 FORD F-150® RAPTOR R™')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc71fafc-e260-493f-9955-20d1f2610c24",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.billboard-img > picture > .lazyloaded",
+      "targets": [
+        ["css=.billboard-img > picture > .lazyloaded", "css:finder"],
+        ["xpath=//img[@alt='Close-up on the headlamps of the 2023 Ford F-150® Raptor R™ with dust blowing']", "xpath:img"],
+        ["xpath=//div[@id='component01']/div/div/div/div[2]/div[2]/div/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c1d5bde-1526-401f-872b-4640d23b6d54",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.active .col-text-wrap",
+      "targets": [
+        ["css=.active .col-text-wrap", "css:finder"],
+        ["xpath=//div[@id='component08']/div/div/div/div/div/div[2]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/div/div/div[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a12c8b8-a427-4c3d-a25d-b06e817df6c3",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Discover F-150 Raptor",
+      "targets": [
+        ["linkText=Discover F-150 Raptor", "linkText"],
+        ["css=.col-md-4:nth-child(1) .btn", "css:finder"],
+        ["xpath=//div[@id='component08']/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/trucks/f150/2022/models/f150-raptor/?intcmp=splash-cta-moddetails-f150-raptor-r')]", "xpath:href"],
+        ["xpath=//div[2]/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Discover F-150 Raptor')]", "xpath:innerText"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "adc702ab-129a-4577-9f66-67679730b1c3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#component07 .expanded-header > .fgx-brand-ds",
+      "targets": [
+        ["css=#component07 .expanded-header > .fgx-brand-ds", "css:finder"],
+        ["xpath=//div[@id='component07']/div/div/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Options to Get Your Heart Racing')]", "xpath:innerText"]
+      ],
+      "value": "Options to Get Your Heart Racing"
+    }, {
+      "id": "c9a2e8fd-1e30-4680-bc42-6707c4c3a05b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#component07 .ml-wrapper",
+      "targets": [
+        ["css=#component07 .ml-wrapper", "css:finder"],
+        ["xpath=//div[@id='component07']/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "There’s more from the company who brought you the F-150® Raptor R™ to fuel your thirst for excitement. Check out these exciting off-road trucks. "
+    }, {
+      "id": "a66c19a8-8534-4aff-bcf7-10d10cd8af6c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Discover F-150 Raptor",
+      "targets": [
+        ["linkText=Discover F-150 Raptor", "linkText"],
+        ["css=.col-md-4:nth-child(1) .btn", "css:finder"],
+        ["xpath=//div[@id='component08']/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/trucks/f150/2022/models/f150-raptor/?intcmp=splash-cta-moddetails-f150-raptor-r')]", "xpath:href"],
+        ["xpath=//div[2]/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Discover F-150 Raptor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49138a30-0cbe-4ad8-88bc-8a9adb9382e9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.column-headline > span",
+      "targets": [
+        ["css=.column-headline > span", "css:finder"],
+        ["xpath=//div[@id='component01']/div/div/div/div/div/div/div/h1/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a208a147-8aa6-46e0-8188-f9b82aa38313",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.lazyloaded:nth-child(3)",
+      "targets": [
+        ["css=.lazyloaded:nth-child(3)", "css:finder"],
+        ["xpath=//img[@alt='2022 F-150® Raptor®']", "xpath:img"],
+        ["xpath=//div[@id='two-column-billboard-carousel-0']/div[2]/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69326fe4-0fa2-49ff-9864-e8d415e60111",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.hoverArrows > .carousel-next > .icon",
+      "targets": [
+        ["css=.hoverArrows > .carousel-next > .icon", "css:finder"],
+        ["xpath=//div[@id='two-column-billboard-carousel-0']/div[3]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "391ea77e-8871-49b4-8faf-b727f608644e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.inactive > .icon",
+      "targets": [
+        ["css=.inactive > .icon", "css:finder"],
+        ["xpath=//div[@id='two-column-billboard-carousel-0']/div[3]/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e4441fe-a3af-4ed7-90a5-a9df21c43ac4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.hidden-xs .btn-secondary",
+      "targets": [
+        ["css=.hidden-xs .btn-secondary", "css:finder"],
+        ["xpath=//div[@id='component01']/div/div/div/div/div/div/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shop.ford.com/configure/f150/chooseyourpath/')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a45a099-21cf-4372-8b1d-99417ec2130d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=View Local Inventory",
+      "targets": [
+        ["linkText=View Local Inventory", "linkText"],
+        ["css=.hidden-xs .btn-primary", "css:finder"],
+        ["xpath=//div[@id='component01']/div/div/div/div/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#$si')])[3]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View Local Inventory')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ad38c63-38ed-492e-b0fe-2d13ec028f8f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.model_0 .model-content-wrap",
+      "targets": [
+        ["css=.model_0 .model-content-wrap", "css:finder"],
+        ["xpath=//div[@id='component02']/div/div[4]/div/div[2]/div/div/div/div/div[2]/div/ul/li/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f097146-6864-42c8-a298-69016bf557f8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.model_1 .model-content-wrap",
+      "targets": [
+        ["css=.model_1 .model-content-wrap", "css:finder"],
+        ["xpath=//div[@id='component02']/div/div[4]/div/div[2]/div/div/div/div/div[2]/div/ul/li[2]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16644081-e7d0-4776-bc2e-c203759b9f14",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.model_2 .model-content-wrap",
+      "targets": [
+        ["css=.model_2 .model-content-wrap", "css:finder"],
+        ["xpath=//div[@id='component02']/div/div[4]/div/div[2]/div/div/div/div/div[2]/div/ul/li[3]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab88c8da-abd8-4b87-a214-47804e45b97a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.vehicle-attributes-wrap > .section:nth-child(1)",
+      "targets": [
+        ["css=.vehicle-attributes-wrap > .section:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='component02']/div/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7cf318e-7d05-4827-be8b-0d6dda701be2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.content-item > .price-value",
+      "targets": [
+        ["css=.content-item > .price-value", "css:finder"],
+        ["xpath=//div[@id='component02']/div/div[3]/div/div/div/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'$70,555')]", "xpath:innerText"]
+      ],
+      "value": "$70,555"
+    }, {
+      "id": "1f39c3aa-fa4a-4d7e-a6ae-b06e1fb1acdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hidden-xs .btn-secondary > .cta-text",
+      "targets": [
+        ["css=.hidden-xs .btn-secondary > .cta-text", "css:finder"],
+        ["xpath=//div[@id='component01']/div/div/div/div/div/div/div/div/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad2adcb8-378a-4f6d-9bd1-2e0b3bdc0ad6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.build h3",
+      "targets": [
+        ["css=.build h3", "css:finder"],
+        ["xpath=//div[@id='app']/div[3]/div/div[3]/div/div/button/h3", "xpath:idRelative"],
+        ["xpath=//button/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5fe0f53-071e-4983-a114-3c5637494dd0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.build h3",
+      "targets": [
+        ["css=.build h3", "css:finder"],
+        ["xpath=//div[@id='app']/div[3]/div/div[3]/div/div/button/h3", "xpath:idRelative"],
+        ["xpath=//button/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5807614f-5119-424b-9e96-5b19aaaaa0e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.build .chooseyourpath__split-btn",
+      "targets": [
+        ["css=.build .chooseyourpath__split-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[3]/div/div[3]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Start Your Build')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bafde34-95ed-4303-8d8a-e4bc83e2ec1d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,230)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "163750ee-9cec-4355-b7df-31fd835c9c90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fd-golf-submit-block:nth-child(3) .fds-primary-button__button",
+      "targets": [
+        ["css=.fd-golf-submit-block:nth-child(3) .fds-primary-button__button", "css:finder"],
+        ["xpath=//button[@value='']", "xpath:attributes"],
+        ["xpath=(//div[@id='FDSLightSubmitPrimaryButton']/button)[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Acknowledge')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "020f4e60-5e2a-4c25-b90b-645a55efbd3a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,154)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c353a104-6025-4e0f-b475-b2ac425038be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.complex-card-wrapper:nth-child(8) .height-sync-fix > .btn",
+      "targets": [
+        ["css=.complex-card-wrapper:nth-child(8) .height-sync-fix > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[19]", "xpath:attributes"],
+        ["xpath=//div[@id='__BVID__55']/div/div/div[2]/div[3]/div[8]/div/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec38c2e0-15d6-424d-bb10-b489a95602ea",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "584bf858-2ba8-4110-a318-889fe2f4704a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ace0140-dec4-45c2-a4b3-08323598211a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,704)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c04cac9e-ad1a-4360-bb68-24a5dca32aff",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1649.3333740234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6462729-5578-4218-b35a-61db556ac1f1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2884)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ad953fd-21c9-4c77-8f13-f7f8c705c09a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6160)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc2f0b13-1b31-4df5-b582-0ce5ebdcd1a3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9852)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f26e8563-f801-4e90-b9c7-3f557a93217e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,10819.3330078125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "988319cf-a38e-4681-8548-128d0c1c54bc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.summary-section:nth-child(3) .glide__slide:nth-child(1) .asset:nth-child(1)",
+      "targets": [
+        ["css=.summary-section:nth-child(3) .glide__slide:nth-child(1) .asset:nth-child(1)", "css:finder"],
+        ["xpath=(//img[@alt='2023 Ford F-150 F-150 Raptor® Exterior View'])[16]", "xpath:img"],
+        ["xpath=//div[@id='app']/div[3]/div/div[3]/div/div/div/div/div/ul/li/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/ul/li/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aefe442d-5b12-4993-8e70-18bc8f6e5a21",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.estimated-price-container",
+      "targets": [
+        ["css=.estimated-price-container", "css:finder"],
+        ["xpath=//div[@id='summary-mobile-scroll']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1331be9e-7114-4b49-81e6-a2d743ea85f3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.monthly-payment-container",
+      "targets": [
+        ["css=.monthly-payment-container", "css:finder"],
+        ["xpath=//div[@id='summary-mobile-scroll']/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e202b5fb-164c-4bb1-ade3-17c090c30f74",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.row:nth-child(1) > .text-center:nth-child(2) .btn",
+      "targets": [
+        ["css=.row:nth-child(1) > .text-center:nth-child(2) .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[116]", "xpath:attributes"],
+        ["xpath=//div[@id='summary-mobile-scroll']/div[2]/div[3]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85b1d5d1-d7aa-463a-bb82-9977428984f6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.row:nth-child(1) > .text-center:nth-child(3) .btn",
+      "targets": [
+        ["css=.row:nth-child(1) > .text-center:nth-child(3) .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[117]", "xpath:attributes"],
+        ["xpath=//div[@id='summary-mobile-scroll']/div[2]/div[3]/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search Inventory')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b86090c9-0479-4f87-b911-0dac455afd9b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=summary-view",
+      "targets": [
+        ["id=summary-view", "id"],
+        ["css=#summary-view", "css:finder"],
+        ["xpath=//div[@id='summary-view']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[3]/div/div[3]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fba08ca-34ec-48cc-8861-a5b57ed24884",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(1) > .text-center:nth-child(2) .btn",
+      "targets": [
+        ["css=.row:nth-child(1) > .text-center:nth-child(2) .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[116]", "xpath:attributes"],
+        ["xpath=//div[@id='summary-mobile-scroll']/div[2]/div[3]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a551213-0a01-4aa9-b7cb-39fb8136b16d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fd-golf-guxv2 #getAnInternetPrice .fd-golf-vehicle-image",
+      "targets": [
+        ["css=.fd-golf-guxv2 #getAnInternetPrice .fd-golf-vehicle-image", "css:finder"],
+        ["xpath=//div[@id='getAnInternetPrice']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[18]/div/div[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "678a145c-7f4a-44b6-8b13-7b724f9a25a8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=exp_button",
+      "targets": [
+        ["id=exp_button", "id"],
+        ["css=#exp_button", "css:finder"],
+        ["xpath=//button[@id='exp_button']", "xpath:attributes"],
+        ["xpath=//div[@id='exp_wrapper']/button", "xpath:idRelative"],
+        ["xpath=//fieldset/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0295267-5dae-45db-9e5a-de0b008e0a63",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.fd-golf-guxv2 #getAnInternetPrice .fd-golf-vehicle-title",
+      "targets": [
+        ["css=.fd-golf-guxv2 #getAnInternetPrice .fd-golf-vehicle-title", "css:finder"],
+        ["xpath=//div[@id='getAnInternetPrice']/div/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'2023 F-150® Raptor®')]", "xpath:innerText"]
+      ],
+      "value": "2023 F-150® Raptor®"
+    }, {
+      "id": "8701fd0f-c6e7-4a6e-a77e-5ccf28d001e2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.shown .fd-golf-close-btn",
+      "targets": [
+        ["css=.shown .fd-golf-close-btn", "css:finder"],
+        ["xpath=//body[@id='configPage-f859e46411']/div[18]/div/div/div", "xpath:idRelative"],
+        ["xpath=//body/div[18]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d772aa84-e193-4488-be20-ecce93602e33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shown .fd-golf-close-btn",
+      "targets": [
+        ["css=.shown .fd-golf-close-btn", "css:finder"],
+        ["xpath=//body[@id='configPage-f859e46411']/div[9]/div/div/div", "xpath:idRelative"],
+        ["xpath=//body/div[9]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3175d838-c618-4b8a-91f2-aa818aee76f2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,492)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28065a9d-7012-4638-9e03-9f59f6a6a558",
+      "comment": "",
+      "command": "click",
+      "target": "css=#brand-nav-logo-lnk > .brand-logo",
+      "targets": [
+        ["css=#brand-nav-logo-lnk > .brand-logo", "css:finder"],
+        ["xpath=//a[@id='brand-nav-logo-lnk']/span", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3d74c2e-b71d-4903-a89e-1929231f8642",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "63904f25-9334-4f19-8508-7b87041d892c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.ford.com/"],
+  "plugins": []
+}
